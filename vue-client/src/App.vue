@@ -42,7 +42,7 @@ export default {
     processing: false,
     complete: false,
     newInsurance: null,
-    error: true,
+    error: false,
   }),
   methods: {
     async submitCarInsurance(data) {
