@@ -10,9 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ab2d128-4053-49ec-90d7-99fff6edaf11" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6ab2d128-4053-49ec-90d7-99fff6edaf11" name="Default Changelist" comment="Update #1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,12 +32,15 @@
     </option>
   </component>
   <component name="ProjectId" id="1ofAkHAJIZmSXxW0A4vPcjDEOXz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -69,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613667414383</updated>
-      <workItem from="1613667415989" duration="607000" />
+      <workItem from="1613667415989" duration="898000" />
     </task>
     <task id="LOCAL−00001" summary="frontend, integration-api, fagsystem">
       <created>1613667498649</created>
@@ -77,7 +78,19 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1613667498649</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="Update #1">
+      <created>1613668123779</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1613668123779</updated>
+    </task>
+    <task id="LOCAL−00003" summary="vue-client">
+      <created>1613668316274</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1613668316274</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,13 +108,16 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="frontend, integration-api, fagsystem" />
-    <option name="LAST_COMMIT_MESSAGE" value="frontend, integration-api, fagsystem" />
+    <MESSAGE value="Update #1" />
+    <MESSAGE value="vue-client" />
+    <option name="LAST_COMMIT_MESSAGE" value="vue-client" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="648" y="469" key="Vcs.Push.Dialog.v2" timestamp="1613667772266">
+    <state x="648" y="469" key="Vcs.Push.Dialog.v2" timestamp="1613668318141">
       <screen x="0" y="25" width="3440" height="1415" />
     </state>
-    <state x="648" y="469" key="Vcs.Push.Dialog.v2/0.25.3440.1415@0.25.3440.1415" timestamp="1613667772266" />
+    <state x="648" y="469" key="Vcs.Push.Dialog.v2/0.25.3440.1415@0.25.3440.1415" timestamp="1613668318141" />
   </component>
 </project>
