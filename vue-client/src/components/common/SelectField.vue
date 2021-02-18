@@ -85,6 +85,10 @@ select {
   border-radius: 4px;
 }
 
+select:focus {
+  border-color: blue;
+}
+
 select.error {
   border: 2px solid red;
 }

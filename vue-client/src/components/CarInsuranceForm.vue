@@ -68,6 +68,8 @@ import PrimaryButton from "@/components/common/PrimaryButton";
 import SecondaryButton from "@/components/common/SecondaryButton";
 import SelectField from "@/components/common/SelectField";
 
+let timeout = null;
+
 export default {
   name: "CarInsuranceForm",
   components: {SelectField, SecondaryButton, PrimaryButton, InputField},
@@ -84,6 +86,9 @@ export default {
     email: null,
     emailError: null,
   }),
+  beforeDestroy() {
+    clearTimeout(timeout);
+  },
   watch: {
     regNumber() {
       this.regNumberError = null;
@@ -167,6 +172,10 @@ export default {
           birthNumber: this.birthNumber,
           bonus: this.bonus,
         });
+      } else {
+        timeout = setTimeout(() => {
+          document.getElementsByClassName('error')[0].focus();
+        }, 500);
       }
     },
     cancel() {
