@@ -1,0 +1,7 @@
+micronaut:
+  application:
+    name: integrationApi
+  server:
+    port: 7080
+    cors:
+      enabled: true
